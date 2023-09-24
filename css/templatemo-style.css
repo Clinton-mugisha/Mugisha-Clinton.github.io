@@ -594,3 +594,26 @@ header .social-icon li a
 
 }
 /* end 360 media quires */
+
+/* Add this to your existing CSS or a separate CSS file */
+.popup {
+	display: none;
+	position: absolute; /* Changed to absolute */
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popup-content {
+	text-align: center;
+  }
+  
+  .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px;
+	cursor: pointer;
+  }
+  
