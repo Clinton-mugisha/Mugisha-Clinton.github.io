@@ -616,4 +616,32 @@ header .social-icon li a
 	padding: 5px;
 	cursor: pointer;
   }
-  
+  /* Default styles for the pop-up */
+.popup {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .popup {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 300px;
+    }
+}
+
+/* Media query for medium to large screens */
+@media screen and (min-width: 769px) {
+    .popup {
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+    }
+}
